@@ -1,0 +1,14 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.button {
+    background-color: beige;
+    border-radius: 20px;
+    border-color: bisque;
+    cursor: pointer;
+}
