@@ -30,7 +30,7 @@ countPositiveFeedbackPercentage() {
     return Number(((value / total) * 100).toFixed(2));
 };
 
-addRate = (keyName)=> {
+addRate = (keyName) => {
     console.log(keyName)
     this.setState (prevState => {
         return {
